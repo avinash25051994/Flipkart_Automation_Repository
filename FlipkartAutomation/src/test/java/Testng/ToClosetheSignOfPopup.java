@@ -91,6 +91,8 @@ public class ToClosetheSignOfPopup extends Base {
   	   driver.quit();
   	   driver = null;
   	   System.gc();//Garbage collection
+	       System.out.println("browser close");
+	   
      }
 
 	
