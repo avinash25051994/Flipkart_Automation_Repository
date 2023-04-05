@@ -46,8 +46,17 @@ public class ToVerifytheAddtoCartoptiononAppplication extends Base{
 			  driver =openEdgeBrowser ();
 		  }
 		  
+		  if (browserName.equals("Safari"))
+		  {  
+			  driver =openSafariBrowser ();
+		  }
 	 }
 	 
+	private WebDriver openSafariBrowser() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	@BeforeClass
 	  public void createPOMObject() {
    signUpPopUp = new SignUpPopUp(driver);
