@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FirefoxTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 29 13:10:05 IST 2023</td>
+<td>Started on:</td><td>Thu Aug 31 11:22:03 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>17 seconds (17222 ms)</td>
+<tr><td>Total time:</td><td>25 seconds (25171 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,13 +77,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp()'><b>gotoSignUpPopUp</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
-	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:69)
+	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1425357472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1425357472'><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
-	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:69)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace642314107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace642314107'><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
+	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -104,8 +104,105 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
-<td>10</td>
-<td>Testng.ToVerifytheAddtoCartoptiononAppplication@64cd705f</td></tr>
+<td>8</td>
+<td>Testng.ToVerifytheAddtoCartoptiononAppplication@68999068</td></tr>
+<tr>
+<td title='Testng.ToClosetheSignOfPopup.gotoSignUpPopUp()'><b>gotoSignUpPopUp</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;_2KpZ6l _2doB4z&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATHARVA&apos;, ip: &apos;192.168.210.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+*** Element info: {Using=xpath, value=//button[@class=&apos;_2KpZ6l _2doB4z&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+	at Testng.ToClosetheSignOfPopup.gotoSignUpPopUp(ToClosetheSignOfPopup.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace266175393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace266175393'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;_2KpZ6l _2doB4z&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATHARVA&apos;, ip: &apos;192.168.210.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+*** Element info: {Using=xpath, value=//button[@class=&apos;_2KpZ6l _2doB4z&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+	at Testng.ToClosetheSignOfPopup.gotoSignUpPopUp(ToClosetheSignOfPopup.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>14</td>
+<td>Testng.ToClosetheSignOfPopup@647e447</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -115,28 +212,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Testng.ToVerifytheAddtoCartoptiononAppplication.clearObjects()'><b>clearObjects</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
+<td title='Testng.ToClosetheSignOfPopup.clearObjects()'><b>clearObjects</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
 <td></td>
-<td>-1680075620</td>
-<td>Testng.ToVerifytheAddtoCartoptiononAppplication@64cd705f</td></tr>
+<td>-1693461148</td>
+<td>Testng.ToClosetheSignOfPopup@647e447</td></tr>
+<tr>
+<td title='Testng.ToClosetheSignOfPopup.closedBrowser()'><b>closedBrowser</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
+<td></td>
+<td>-1693461148</td>
+<td>Testng.ToClosetheSignOfPopup@647e447</td></tr>
 <tr>
 <td title='Testng.ToVerifytheAddtoCartoptiononAppplication.logOutFromApplication()'><b>logOutFromApplication</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
 <td></td>
-<td>-1680075620</td>
-<td>Testng.ToVerifytheAddtoCartoptiononAppplication@64cd705f</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td>-1693461141</td>
+<td>Testng.ToVerifytheAddtoCartoptiononAppplication@68999068</td></tr>
 <tr>
-<td title='Testng.ToClosetheSignOfPopup.test()'><b>test</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
+<td title='Testng.ToClosetheSignOfPopup.logOutFromApplication()'><b>logOutFromApplication</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
 <td></td>
-<td>0</td>
-<td>Testng.ToClosetheSignOfPopup@4b0b0854</td></tr>
+<td>-1693461148</td>
+<td>Testng.ToClosetheSignOfPopup@647e447</td></tr>
+<tr>
+<td title='Testng.ToVerifytheAddtoCartoptiononAppplication.closedBrowser()'><b>closedBrowser</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
+<td></td>
+<td>-1693461148</td>
+<td>Testng.ToVerifytheAddtoCartoptiononAppplication@68999068</td></tr>
+<tr>
+<td title='Testng.ToVerifytheAddtoCartoptiononAppplication.clearObjects()'><b>clearObjects</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
+<td></td>
+<td>-1693461141</td>
+<td>Testng.ToVerifytheAddtoCartoptiononAppplication@68999068</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -148,13 +252,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='Testng.ToVerifytheAddtoCartoptiononAppplication.test()'><b>test</b><br>Test class: Testng.ToVerifytheAddtoCartoptiononAppplication</td>
 <td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
-	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:69)
+	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1215599644", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1215599644'><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
-	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:69)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace141376972", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace141376972'><pre>java.lang.NullPointerException: Cannot invoke &quot;Page.Homepage.sendsearchbar(String)&quot; because &quot;this.homePage&quot; is null
+	at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -176,7 +280,104 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:833)
 </pre></div></td>
 <td>0</td>
-<td>Testng.ToVerifytheAddtoCartoptiononAppplication@64cd705f</td></tr>
+<td>Testng.ToVerifytheAddtoCartoptiononAppplication@68999068</td></tr>
+<tr>
+<td title='Testng.ToClosetheSignOfPopup.test()'><b>test</b><br>Test class: Testng.ToClosetheSignOfPopup</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;_2KpZ6l _2doB4z&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATHARVA&apos;, ip: &apos;192.168.210.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+*** Element info: {Using=xpath, value=//button[@class=&apos;_2KpZ6l _2doB4z&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+	at Testng.ToClosetheSignOfPopup.gotoSignUpPopUp(ToClosetheSignOfPopup.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace224046083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace224046083'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class=&apos;_2KpZ6l _2doB4z&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ATHARVA&apos;, ip: &apos;192.168.210.27&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+*** Element info: {Using=xpath, value=//button[@class=&apos;_2KpZ6l _2doB4z&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+	at Testng.ToClosetheSignOfPopup.gotoSignUpPopUp(ToClosetheSignOfPopup.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+</pre></div></td>
+<td>0</td>
+<td>Testng.ToClosetheSignOfPopup@647e447</td></tr>
 </table><p>
 </body>
 </html>
