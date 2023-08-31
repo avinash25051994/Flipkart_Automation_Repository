@@ -76,6 +76,11 @@ public static void main(String[] args) throws InterruptedException {
 	  //productPage.ActQty();
 	  productPage.SelectQty();
 	  System.out.println("getText"); 
+
+
+
+
+	
 }
 
 }
