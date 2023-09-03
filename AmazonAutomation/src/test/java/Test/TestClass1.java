@@ -3,12 +3,9 @@ package Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import module.SignUpPopUp;
 import page.HomePage;
-import page.Iframe;
 import page.ProductDetailPage;
 import page.ProductPage;
-import page.Servicepage;
 
 
 public class TestClass1 {

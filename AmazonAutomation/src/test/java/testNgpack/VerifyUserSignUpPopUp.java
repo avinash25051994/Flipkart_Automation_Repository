@@ -102,7 +102,7 @@ public class  VerifyUserSignUpPopUp extends Base   {
 	    	   testID = "T101";
 	    	   System.out.println("Test");
 	    	   SignUpPopUp signUpPopUp = new SignUpPopUp(driver);
-	    	  String expectedTextMsg = "";//Enter the email address or mobile phone number associated with your Amazon account.
+	    	  String expectedTextMsg = "Enter the email address or mobile phone number associated with your Amazon account.";
 	    	   String actualMSg =signUpPopUp.getText();
 	    	   Assert.assertEquals(actualMSg, expectedTextMsg );	   
 //	    		if (expectedTextMsg.equals(actualMSg))	

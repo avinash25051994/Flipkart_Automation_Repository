@@ -2,20 +2,15 @@ package Utils;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.poi.EncryptedDocumentException;
-import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -36,7 +31,7 @@ public class Utility {
 	 public static void captureScreen(WebDriver driver, String testID) throws IOException {  
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			
-			String datetime = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
+			String datetime = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date(0));
 			
 			File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 
@@ -74,9 +69,9 @@ public class Utility {
 	
          Workbook book = WorkbookFactory.create(file);
 
-	   Sheet sheet1 = book.getSheet("Sheet1");
-	   Row row1 = sheet1.getRow(1);
-	   Cell cell = row1.getCell(0);
+			Sheet sheet1 = book.getSheet("Sheet1");
+			Row row1 = sheet1.getRow(1);
+			Cell cell = row1.getCell(0);
 	   
 	
 	   String data=cell.getStringCellValue();

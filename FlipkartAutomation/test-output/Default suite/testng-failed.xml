@@ -6,12 +6,25 @@
       <class name="Testng.ToVerifytheAddtoCartoptiononAppplication">
         <methods>
           <include name="openBrowser"/>
-          <include name="test1"/>
+          <include name="createPOMObject"/>
+          <include name="clearObjects"/>
           <include name="test"/>
-          <include name="test2"/>
+          <include name="logOutFromApplication"/>
           <include name="gotoSignUpPopUp"/>
+          <include name="closedBrowser"/>
         </methods>
       </class> <!-- Testng.ToVerifytheAddtoCartoptiononAppplication -->
+      <class name="Testng.ToClosetheSignOfPopup">
+        <methods>
+          <include name="createPOMObject"/>
+          <include name="test"/>
+          <include name="logOutFromApplication"/>
+          <include name="gotoSignUpPopUp"/>
+          <include name="openBrowser"/>
+          <include name="closedBrowser"/>
+          <include name="clearObjects"/>
+        </methods>
+      </class> <!-- Testng.ToClosetheSignOfPopup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

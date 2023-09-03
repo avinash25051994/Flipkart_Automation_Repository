@@ -14,6 +14,42 @@
           <include name="gotoSignUpPopUp"/>
         </methods>
       </class> <!-- testNgpack.VerifyUserSignUpPopUp -->
+      <class name="testNgpack.ToVerifytheproductDetails">
+        <methods>
+          <include name="testClass"/>
+          <include name="openBrowser"/>
+          <include name="gotoSearchbar"/>
+          <include name="closedBrowser"/>
+          <include name="createPOMobject"/>
+          <include name="logOutFromApplication"/>
+          <include name="clearobject"/>
+        </methods>
+      </class> <!-- testNgpack.ToVerifytheproductDetails -->
+      <class name="testNgpack.ToVerifySerchBaroption">
+        <methods>
+          <include name="testng"/>
+          <include name="gotoSearchbar"/>
+          <include name="openBrowser"/>
+          <include name="closedBrowser"/>
+          <include name="logOutFromApplication"/>
+          <include name="clearobject"/>
+          <include name="createPOMobject"/>
+          <include name="testng2"/>
+          <include name="testng1"/>
+        </methods>
+      </class> <!-- testNgpack.ToVerifySerchBaroption -->
+      <class name="testNgpack.ToVerifyAddToCartOptionaOnApplication">
+        <methods>
+          <include name="testng"/>
+          <include name="testng2"/>
+          <include name="clearObject"/>
+          <include name="createPOMobject"/>
+          <include name="logOutFromApplication"/>
+          <include name="gotoSearchbar"/>
+          <include name="openBrowser"/>
+          <include name="closedBrowser"/>
+        </methods>
+      </class> <!-- testNgpack.ToVerifyAddToCartOptionaOnApplication -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="1" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-31T11:22:03 IST" name="Suite" finished-at="2023-08-31T11:22:28 IST" duration-ms="25171">
+  <suite started-at="2023-09-03T23:55:59 IST" name="Suite" finished-at="2023-09-03T23:56:16 IST" duration-ms="16294">
     <groups>
     </groups>
-    <test started-at="2023-08-31T11:22:03 IST" name="EdgeTest" finished-at="2023-08-31T11:22:15 IST" duration-ms="12558">
+    <test started-at="2023-09-03T23:55:59 IST" name="EdgeTest" finished-at="2023-09-03T23:56:06 IST" duration-ms="6733">
       <class name="Testng.ToClosetheSignOfPopup">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:03 IST" name="openBrowser" finished-at="2023-08-31T11:22:05 IST" duration-ms="1786" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:55:59 IST" name="openBrowser" finished-at="2023-09-03T23:56:00 IST" duration-ms="947" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:07 IST" name="createPOMObject" finished-at="2023-08-31T11:22:07 IST" duration-ms="42" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:03 IST" name="createPOMObject" finished-at="2023-09-03T23:56:03 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:07 IST" name="gotoSignUpPopUp" finished-at="2023-08-31T11:22:14 IST" duration-ms="6845" status="PASS">
+        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:03 IST" name="gotoSignUpPopUp" finished-at="2023-09-03T23:56:06 IST" duration-ms="2961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoSignUpPopUp -->
-        <test-method signature="test()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:14 IST" name="test" finished-at="2023-08-31T11:22:14 IST" duration-ms="40" status="PASS">
+        <test-method signature="test()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:06 IST" name="test" finished-at="2023-09-03T23:56:06 IST" duration-ms="35" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:14 IST" name="logOutFromApplication" finished-at="2023-08-31T11:22:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:06 IST" name="logOutFromApplication" finished-at="2023-09-03T23:56:06 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:14 IST" name="clearObjects" finished-at="2023-08-31T11:22:14 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:06 IST" name="clearObjects" finished-at="2023-09-03T23:56:06 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToClosetheSignOfPopup@359f7cdf]" started-at="2023-08-31T11:22:15 IST" name="closedBrowser" finished-at="2023-08-31T11:22:15 IST" duration-ms="361" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToClosetheSignOfPopup@52bf72b5]" started-at="2023-09-03T23:56:06 IST" name="closedBrowser" finished-at="2023-09-03T23:56:06 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
       </class> <!-- Testng.ToClosetheSignOfPopup -->
       <class name="Testng.ToVerifytheAddtoCartoptiononAppplication">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:05 IST" name="openBrowser" finished-at="2023-08-31T11:22:07 IST" duration-ms="2729" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:00 IST" name="openBrowser" finished-at="2023-09-03T23:56:03 IST" duration-ms="2206" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:07 IST" name="createPOMObject" finished-at="2023-08-31T11:22:07 IST" duration-ms="47" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:03 IST" name="createPOMObject" finished-at="2023-09-03T23:56:03 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:07 IST" name="gotoSignUpPopUp" finished-at="2023-08-31T11:22:15 IST" duration-ms="7288" status="FAIL">
+        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:03 IST" name="gotoSignUpPopUp" finished-at="2023-09-03T23:56:06 IST" duration-ms="2936" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null]]>
@@ -92,7 +92,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoSignUpPopUp -->
-        <test-method signature="test()[pri:1, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:15 IST" name="test" finished-at="2023-08-31T11:22:15 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test()[pri:1, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:06 IST" name="test" finished-at="2023-09-03T23:56:06 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null]]>
@@ -125,23 +125,23 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:15 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461135141" status="SKIP">
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:06 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765566077" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:15 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461135144" status="SKIP">
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:06 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765566081" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@1fa268de]" started-at="2023-08-31T11:22:15 IST" name="closedBrowser" finished-at="2023-08-31T11:22:15 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@37afeb11]" started-at="2023-09-03T23:56:06 IST" name="closedBrowser" finished-at="2023-09-03T23:56:06 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
       </class> <!-- Testng.ToVerifytheAddtoCartoptiononAppplication -->
     </test> <!-- EdgeTest -->
-    <test started-at="2023-08-31T11:22:03 IST" name="FirefoxTest" finished-at="2023-08-31T11:22:28 IST" duration-ms="25171">
+    <test started-at="2023-09-03T23:55:59 IST" name="FirefoxTest" finished-at="2023-09-03T23:56:16 IST" duration-ms="16294">
       <class name="Testng.ToClosetheSignOfPopup">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:03 IST" name="openBrowser" finished-at="2023-08-31T11:22:08 IST" duration-ms="5618" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:55:59 IST" name="openBrowser" finished-at="2023-09-03T23:56:02 IST" duration-ms="2994" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -152,30 +152,30 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:13 IST" name="createPOMObject" finished-at="2023-08-31T11:22:13 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:05 IST" name="createPOMObject" finished-at="2023-09-03T23:56:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:13 IST" name="gotoSignUpPopUp" finished-at="2023-08-31T11:22:28 IST" duration-ms="14753" status="FAIL">
+        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:05 IST" name="gotoSignUpPopUp" finished-at="2023-09-03T23:56:16 IST" duration-ms="10606" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATHARVA', ip: '192.168.210.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15752, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6983fe9a-b44d-4270-8b80-068bc3a67c76
 *** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATHARVA', ip: '192.168.210.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15752, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6983fe9a-b44d-4270-8b80-068bc3a67c76
 *** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -231,26 +231,26 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoSignUpPopUp -->
-        <test-method signature="test()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:28 IST" name="test" finished-at="2023-08-31T11:22:28 IST" duration-ms="0" status="SKIP">
+        <test-method signature="test()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:16 IST" name="test" finished-at="2023-09-03T23:56:16 IST" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATHARVA', ip: '192.168.210.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15752, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6983fe9a-b44d-4270-8b80-068bc3a67c76
 *** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ATHARVA', ip: '192.168.210.27', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9944, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b3c484cf-b0d5-4ef1-b39f-ff0e0ea90dd3
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15752, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6983fe9a-b44d-4270-8b80-068bc3a67c76
 *** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
@@ -306,21 +306,21 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:28 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461148400" status="SKIP">
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:16 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765576221" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:28 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461148401" status="SKIP">
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:16 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765576221" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToClosetheSignOfPopup@647e447]" started-at="2023-08-31T11:22:28 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461148403" status="SKIP">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToClosetheSignOfPopup@20ce78ec]" started-at="2023-09-03T23:56:16 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765576222" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
       </class> <!-- Testng.ToClosetheSignOfPopup -->
       <class name="Testng.ToVerifytheAddtoCartoptiononAppplication">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:08 IST" name="openBrowser" finished-at="2023-08-31T11:22:13 IST" duration-ms="4769" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:02 IST" name="openBrowser" finished-at="2023-09-03T23:56:05 IST" duration-ms="2683" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,18 +331,60 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:13 IST" name="createPOMObject" finished-at="2023-08-31T11:22:13 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:05 IST" name="createPOMObject" finished-at="2023-09-03T23:56:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPOMObject -->
-        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:13 IST" name="gotoSignUpPopUp" finished-at="2023-08-31T11:22:21 IST" duration-ms="8325" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method is-config="true" signature="gotoSignUpPopUp()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:05 IST" name="gotoSignUpPopUp" finished-at="2023-09-03T23:56:10 IST" duration-ms="5196" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null]]>
+              <![CDATA[Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12604, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a97c4ca-8286-498d-a437-ea6e686d5ce7
+*** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null
-at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12604, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a97c4ca-8286-498d-a437-ea6e686d5ce7
+*** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -364,18 +406,60 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoSignUpPopUp -->
-        <test-method signature="test()[pri:1, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:21 IST" name="test" finished-at="2023-08-31T11:22:21 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="test()[pri:1, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:10 IST" name="test" finished-at="2023-09-03T23:56:10 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null]]>
+              <![CDATA[Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12604, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a97c4ca-8286-498d-a437-ea6e686d5ce7
+*** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "Page.Homepage.sendsearchbar(String)" because "this.homePage" is null
-at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:78)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[@class='_2KpZ6l _2doB4z']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATHARVA', ip: '192.168.69.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 117.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230824132758, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12604, moz:profile: C:\Users\AVINAS~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a97c4ca-8286-498d-a437-ea6e686d5ce7
+*** Element info: {Using=xpath, value=//button[@class='_2KpZ6l _2doB4z']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+at module.SignUpPopUp.executeScriptclose(SignUpPopUp.java:25)
+at Testng.ToVerifytheAddtoCartoptiononAppplication.gotoSignUpPopUp(ToVerifytheAddtoCartoptiononAppplication.java:75)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -397,19 +481,19 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:21 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461141973" status="SKIP">
+        <test-method is-config="true" signature="logOutFromApplication()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:10 IST" name="logOutFromApplication" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765570812" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logOutFromApplication -->
-        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:21 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461141974" status="SKIP">
+        <test-method is-config="true" signature="clearObjects()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:10 IST" name="clearObjects" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765570812" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearObjects -->
-        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@68999068]" started-at="2023-08-31T11:22:28 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693461148406" status="SKIP">
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testng.ToVerifytheAddtoCartoptiononAppplication@6973b51b]" started-at="2023-09-03T23:56:16 IST" name="closedBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1693765576222" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedBrowser -->
